@@ -1,0 +1,237 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --acccent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+/* Logo */
+
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo .accent {
+  color: var(--acccent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Navigation */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acccent-color);
+}
+
+.site-nav .link.current {
+  color: var(--acccent-color);
+}
+
+/* Contacts */
+
+.contacts-list .link {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--acccent-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .hero-title {
+  color: var(--primary-background-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--primary-background-color);
+  background-color: var(--acccent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-decoration: none;
+}
+
+/* Advantages */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-list .title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages-list .text {
+  color: var(--secondary-text-color);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.about-section .section-title,
+.team-section .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Team */
+
+.team-section {
+  background-color: var(--secondary-background-color);
+}
+
+.team-list .title,
+.team-list .text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-list .text {
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+
+.page-footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: var(--primary-background-color);
+}
+
+.contacts-list-footer .link {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contacts-list-footer .mail {
+  color: var(--primary-background-color);
+}
+
+.contacts-list-footer .link:hover,
+.contacts-list-footer .link:focus {
+  color: var(--acccent-color);
+}
+
+/* Portfolio */
+
+/* buttons */
+
+.filter-button {
+  background-color: var(--primary-background-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-background-color);
+  background-color: var(--acccent-color);
+}
+
+/* projects */
+
+.link {
+  text-decoration: none;
+}
+
+.projects-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-list .text {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* .projects-list .description {
+  
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+} */
