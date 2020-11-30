@@ -55,11 +55,10 @@ img {
   /* outline: 2px solid tomato; */
 }
 
-
 /* Logo */
 
-.page-header{
-  border-bottom: 1px solid #ECECEC;
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header .container {
@@ -261,10 +260,6 @@ img {
   text-align: center;
 }
 
-.about-section .container {
-  margin-bottom: px;
-}
-
 .work-list {
   display: flex;
   justify-content: space-around;
@@ -328,6 +323,7 @@ img {
 }
 
 .page-footer .logo {
+  width: 231px;
   display: block;
   margin-bottom: 20px;
 }
@@ -340,13 +336,17 @@ img {
   color: var(--primary-background-color);
 }
 
-.contacts-list-footer .link {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.contacts-list-footer {
+  width: 231px;
+}
 
-  color: var(--secondary-text-color);
+.contacts-list-footer .link {
+  display: block;
+  /* padding-top: 3px;
+  padding-bottom: 3px; */
+
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
@@ -372,13 +372,15 @@ img {
 .filter-button {
   padding: 6px 22px;
 
-  background-color: background: #F5F4FA;
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
   border-radius: 4px;
-  border: none;
+  border: transparent;
+  cursor: pointer;
 }
 
 .filter .item:not(:last-child) {
@@ -397,6 +399,7 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
+  padding-bottom: 16px;
 }
 
 .projects-list {
