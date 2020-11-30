@@ -168,7 +168,6 @@ img {
 }
 
 .hero .title {
-  display: flex;
   margin-bottom: 30px;
 
   color: var(--primary-background-color);
@@ -181,7 +180,6 @@ img {
 }
 
 .button {
-  display: inline-block;
   width: 200px;
   height: 50px;
 
@@ -193,6 +191,7 @@ img {
   text-decoration: none;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 /* Advantages */
@@ -369,6 +368,13 @@ img {
 
 /* buttons */
 
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+  padding-bottom: 16px;
+}
+
 .filter-button {
   padding: 6px 22px;
 
@@ -395,13 +401,6 @@ img {
 
 /* projects */
 
-.filter {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 34px;
-  padding-bottom: 16px;
-}
-
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -409,7 +408,8 @@ img {
 }
 
 .projects-list .item {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
+  /* width: 370px; */
   border: 1px solid #eeeeee;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-right: 30px;
@@ -425,6 +425,7 @@ img {
 }
 
 .projects-list .photo {
+  width: 100%;
   margin-bottom: 20px;
 }
 
