@@ -309,6 +309,7 @@ img {
 
 .team-list .text {
   color: var(--secondary-text-color);
+  font-weight: 400;
 }
 
 /* footer */
